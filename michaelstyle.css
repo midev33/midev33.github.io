@@ -1,0 +1,91 @@
+
+
+body{
+    background-color:black;
+    text-align:center;
+    
+}
+
+h1{
+    color: #66fcf1;
+    font-size:35px;
+}
+
+h3{
+    color:#45A29E;
+}
+
+
+#logo{
+
+    width:200px;
+    
+}
+
+.popularCat{
+
+    border:3px solid white;
+    
+    
+  
+}
+
+/* Clear floats after image containers */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+
+   
+  }
+
+.menu{
+
+    display:inline-block;
+}
+
+.xtremePromise{
+    
+    display:inline-block;
+    margin:10px;
+    color:#C5C6C7;
+}
+
+.popularCategories{
+    list-style-type: none;
+}
+
+.containerCategories{
+    position: relative;
+  text-align: center;
+  color:white;
+  font-weight: bold;
+  float: left;
+  width: 29%;
+  padding: 20px;
+  
+  
+ 
+}
+
+  /* Bottom left text */
+.popularCattext{
+  
+    position: absolute;
+    bottom: 30px;
+    left: 48px;
+    font-size: 48px;
+ 
+
+}
+
+.containerPromise{
+
+
+}
+
+.slider{
+height:500px;
+border:3px solid grey;
+
+}
